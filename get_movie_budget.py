@@ -8,4 +8,3 @@ if __name__ == '__main__':
         raise SystemExit
     movie_number = 215
     print(make_tmdb_api_request(method='/movie/%d' % movie_number, api_key=user_api_key)['budget'])
-
